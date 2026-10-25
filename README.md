@@ -17,12 +17,6 @@ Portfolio educativo de Maximiliano Sosa: trazabilidad de fondos, revisión de co
 
 ![Flujo de fondos seleccionado](euler-investigacion/visualizaciones/flujo_fondos.png)
 
-## Habilidades demostradas
-
-Tracing manual en un explorador; distinción entre ETH nativo y transferencias ERC-20; cronología UTC; dataset con procedencia; uso de `Decimal` y Pandas; grafo dirigido con aristas paralelas en NetworkX; evaluación de exposición directa e indirecta; atribuciones graduadas y separación entre hechos, inferencias e hipótesis.
-
-Se eligió una muestra acotada de Euler porque permite estudiar recepción, redistribución y movimientos compatibles con devoluciones sin reconstruir todo el exploit. No se incorporan herramientas para ampliar artificialmente el alcance.
-
 ## Reproducir en Colab
 
 1. Descargar `euler-investigacion/investigacion_euler.ipynb`.
