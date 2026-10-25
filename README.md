@@ -13,9 +13,9 @@ Portfolio educativo de Maximiliano Sosa: trazabilidad de fondos, revisión de co
 - **Atribución:** una salida de 344.925,50 DAI llega a la dirección publicada por Euler Foundation como tesorería. El receptor de los 20 millones sigue sin atribución validada.
 - **Límite:** no se demuestra lavado, identidad personal, recuperación completa ni depósito en un exchange.
 
-**Archivo principal:** [Notebook con informe, código, resultados y evidencia](investigacion_euler.ipynb). Para leer sin Python, descargar y abrir [la versión HTML](investigacion_euler.html) en un navegador. GitHub puede mostrar el HTML como código; la versión descargada contiene las imágenes.
+**Archivo principal:** [Notebook con informe, código, resultados y evidencia](euler-investigacion/investigacion_euler.ipynb). Para leer sin Python, descargar y abrir [la versión HTML](euler-investigacion/investigacion_euler.html) en un navegador. GitHub puede mostrar el HTML como código; la versión descargada contiene las imágenes.
 
-![Flujo de fondos seleccionado](visualizaciones/flujo_fondos.png)
+![Flujo de fondos seleccionado](euler-investigacion/visualizaciones/flujo_fondos.png)
 
 ## Habilidades demostradas
 
@@ -25,7 +25,7 @@ Se eligió una muestra acotada de Euler porque permite estudiar recepción, redi
 
 ## Reproducir en Colab
 
-1. Descargar `investigacion_euler.ipynb`.
+1. Descargar `euler-investigacion/investigacion_euler.ipynb`.
 2. Abrir Google Colab y elegir **Archivo → Subir notebook**.
 3. Seleccionar **Entorno de ejecución → Ejecutar todo**.
 4. Revisar los controles y las figuras. Los archivos derivados aparecen en `salidas_euler/`.
