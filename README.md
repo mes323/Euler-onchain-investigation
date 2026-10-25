@@ -2,7 +2,7 @@
 
 **Siete movimientos públicos en Ethereum, documentados desde Etherscan y analizados con Python.**
 
-Portfolio educativo de Maximiliano Sosa: trazabilidad de fondos, revisión de contrapartes y disciplina de evidencia aplicadas a una muestra del período posterior al incidente de Euler. Proyecto realizado con asistencia de IA declarada en la bitácora; no representa trabajo contratado por un exchange.
+Portfolio educativo de: trazabilidad de fondos, revisión de contrapartes y disciplina de evidencia aplicadas a una muestra del período posterior al incidente de Euler.
 
 ## Lectura en dos minutos
 
