@@ -1,0 +1,6 @@
+Nodo,Entradas (operaciones DAI),Salidas (operaciones DAI),Grado total DAI,Orígenes distintos DAI,Destinos distintos DAI
+A01,0,1,1,0,1
+A02,2,3,5,2,2
+A04,2,0,2,1,0
+A05,0,1,1,0,1
+A06,1,0,1,1,0

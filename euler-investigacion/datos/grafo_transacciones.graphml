@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d8" for="edge" attr.name="source_url" attr.type="string"/>
+<key id="d7" for="edge" attr.name="amount" attr.type="string"/>
+<key id="d6" for="edge" attr.name="asset" attr.type="string"/>
+<key id="d5" for="edge" attr.name="timestamp" attr.type="string"/>
+<key id="d4" for="edge" attr.name="tx_hash" attr.type="string"/>
+<key id="d3" for="node" attr.name="confidence" attr.type="string"/>
+<key id="d2" for="node" attr.name="attribution" attr.type="string"/>
+<key id="d1" for="node" attr.name="rol" attr.type="string"/>
+<key id="d0" for="node" attr.name="address" attr.type="string"/>
+<graph edgedefault="directed"><node id="A01">
+  <data key="d0">0xb66cd966670d962c227b3eaba30a872dbfb995db</data>
+  <data key="d1">Origen asociado públicamente al incidente</data>
+  <data key="d2">Asociación pública con el incidente Euler</data>
+  <data key="d3">HIGH CONFIDENCE</data>
+</node>
+<node id="A02">
+  <data key="d0">0xa1b44d4b5b4c361f51e029b81bf2db9cf4d8e676</data>
+  <data key="d1">Dirección focal</data>
+  <data key="d2">Asociación pública con el incidente Euler</data>
+  <data key="d3">HIGH CONFIDENCE</data>
+</node>
+<node id="A03">
+  <data key="d0">0xee009faf00cf54c1b4387829af7a8dc5f0c8c8c5</data>
+  <data key="d1">Destino ETH</data>
+  <data key="d2">Euler: Deployer</data>
+  <data key="d3">HIGH CONFIDENCE</data>
+</node>
+<node id="A04">
+  <data key="d0">0x0d1b0c32b52583fd155ea6a2df10214270da9843</data>
+  <data key="d1">Destino DAI</data>
+  <data key="d2">Sin atribución validada</data>
+  <data key="d3">UNKNOWN</data>
+</node>
+<node id="A05">
+  <data key="d0">0x46e0be2df97dac791fc8e30cf2b2e4f58c50cf55</data>
+  <data key="d1">Segundo origen DAI</data>
+  <data key="d2">Asociación pública con el incidente Euler</data>
+  <data key="d3">HIGH CONFIDENCE</data>
+</node>
+<node id="A06">
+  <data key="d0">0xcad001c30e96765ac90307669d578219d4fb1dce</data>
+  <data key="d1">Destino DAI</data>
+  <data key="d2">Euler DAO Treasury</data>
+  <data key="d3">CONFIRMED</data>
+</node>
+<edge source="A01" target="A02" id="T001">
+  <data key="d4">0x79c10cf538667a0a7de40ce54d2444c9e9e17b5c62b321e739020df0015baeda</data>
+  <data key="d5">2023-03-25T15:25:59+00:00</data>
+  <data key="d6">ETH</data>
+  <data key="d7">7738.25</data>
+  <data key="d8">https://etherscan.io/tx/0x79c10cf538667a0a7de40ce54d2444c9e9e17b5c62b321e739020df0015baeda</data>
+</edge>
+<edge source="A01" target="A02" id="T005">
+  <data key="d4">0x7e606bd1f8ef29cf6dc86c9c48307172985536b2039d41b2f1e672b99bbd1f78</data>
+  <data key="d5">2023-03-25T15:29:23+00:00</data>
+  <data key="d6">DAI</data>
+  <data key="d7">10787465.25</data>
+  <data key="d8">https://etherscan.io/tx/0x7e606bd1f8ef29cf6dc86c9c48307172985536b2039d41b2f1e672b99bbd1f78</data>
+</edge>
+<edge source="A02" target="A03" id="T002">
+  <data key="d4">0xe3f67f8e50042f09a3d9b6873bd15c14fa8b8176cfa1069bc1d3ab71e4b3fd0d</data>
+  <data key="d5">2023-03-27T18:13:47+00:00</data>
+  <data key="d6">ETH</data>
+  <data key="d7">7738.05</data>
+  <data key="d8">https://etherscan.io/tx/0xe3f67f8e50042f09a3d9b6873bd15c14fa8b8176cfa1069bc1d3ab71e4b3fd0d</data>
+</edge>
+<edge source="A02" target="A04" id="T003">
+  <data key="d4">0x61e6fa0a064e51320778e92abb475fc7ae06dea0554c969588f4d7ed31d9b42b</data>
+  <data key="d5">2023-03-27T18:55:11+00:00</data>
+  <data key="d6">DAI</data>
+  <data key="d7">5</data>
+  <data key="d8">https://etherscan.io/tx/0x61e6fa0a064e51320778e92abb475fc7ae06dea0554c969588f4d7ed31d9b42b</data>
+</edge>
+<edge source="A02" target="A04" id="T004">
+  <data key="d4">0x3d0b3a04a7031841b44c94b4f9cccdc397b0f6e97f7cc2ecfcc3abe8732a995f</data>
+  <data key="d5">2023-03-27T18:58:47+00:00</data>
+  <data key="d6">DAI</data>
+  <data key="d7">20000000</data>
+  <data key="d8">https://etherscan.io/tx/0x3d0b3a04a7031841b44c94b4f9cccdc397b0f6e97f7cc2ecfcc3abe8732a995f</data>
+</edge>
+<edge source="A02" target="A06" id="T007">
+  <data key="d4">0x7debdb60baabc71c87b25ab0213dc01d0b738050bc00f22397aeb0666f0e8334</data>
+  <data key="d5">2023-03-31T14:39:35+00:00</data>
+  <data key="d6">DAI</data>
+  <data key="d7">344925.50</data>
+  <data key="d8">https://etherscan.io/tx/0x7debdb60baabc71c87b25ab0213dc01d0b738050bc00f22397aeb0666f0e8334</data>
+</edge>
+<edge source="A05" target="A02" id="T006">
+  <data key="d4">0x79d5a1f873c52942cc1eb681ef8f6b1005e3fcfa48db5b66e63962b6696e4845</data>
+  <data key="d5">2023-03-25T18:16:59+00:00</data>
+  <data key="d6">DAI</data>
+  <data key="d7">9557465.25</data>
+  <data key="d8">https://etherscan.io/tx/0x79d5a1f873c52942cc1eb681ef8f6b1005e3fcfa48db5b66e63962b6696e4845</data>
+</edge>
+</graph></graphml>
